@@ -8,6 +8,8 @@ Built through AI-assisted programming:
 - **Requirements & Architecture**: ChatGPT
 - **Implementation & Execution**: Cline
 
+For custom instructions used: [AI Configs Repository](https://github.com/akaiyol/ai-configs)
+
 ## How It Works
 
 ```
