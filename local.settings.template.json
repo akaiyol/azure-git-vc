@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "YOUR_AZURE_STORAGE_CONNECTION_STRING",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+
+    "AZURE_SUBSCRIPTION_ID": "YOUR_AZURE_SUBSCRIPTION_ID",
+    "WORKBOOK_RESOURCE_GROUP": "YOUR_WORKBOOK_RESOURCE_GROUP",
+    "WORKBOOK_NAME_PREFIX": "workbook-",
+
+    "GIT_OWNER": "YOUR_GITHUB_USERNAME_OR_ORG",
+    "GIT_REPO": "YOUR_REPOSITORY_NAME",
+    "GIT_BRANCH": "main",
+    "GIT_BASE_URL": "https://api.github.com",
+    "GIT_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN",
+
+    "ENABLE_TIMER": "false",
+    "PRESERVE_ARM_PAYLOAD": "false"
+  }
+}
