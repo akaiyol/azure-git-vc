@@ -90,6 +90,16 @@ workbooks/
 
 - **[IMPLEMENTATION.md](IMPLEMENTATION.md)** - Complete setup and deployment guide
 - **[TESTS.md](TESTS.md)** - Testing and debugging instructions
+- **[ALERTS.md](ALERTS.md)** - Azure Monitor alert configuration and remediation
+
+## Monitoring & Alerts
+
+Two Azure Monitor scheduled-query alerts are documented in [ALERTS.md](ALERTS.md):
+
+- **Function execution failures** — fires on any failed invocation (Severity 2)
+- **Timer not firing** — fires when the timer trigger has not executed in 30 minutes (Severity 1)
+
+Both alerts require [APPLICATIONINSIGHTS_CONNECTION_STRING](IMPLEMENTATION.md) to be set correctly in the function app's configuration. See [ALERTS.md](ALERTS.md) for creation commands and remediation steps.
 
 ## Configuration
 
